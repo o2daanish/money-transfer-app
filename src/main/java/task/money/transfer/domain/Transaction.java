@@ -134,7 +134,7 @@ public class Transaction {
             return this;
         }
         
-        public TransferBuilder renarks(String remarks) {
+        public TransferBuilder remarks(String remarks) {
             this.remarks = remarks;
             return this;
         }
